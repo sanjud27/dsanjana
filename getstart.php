@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spark foundation</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+<style>
+::-webkit-scrollbar
+{
+	display:none;
+}
+body 
+{
+	margin:0;
+    border:0;
+    background-image: url('bank8.jpg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+nav
+{
+	top:0;
+	left:0;
+	width:100%;
+	height:80px;
+	line-height:40px;
+	background:rgba(0,0,0,0.2);
+}
+nav .bank
+{
+	padding :22px 20px;
+	height:40px;
+	float :left;
+	color:#fff;
+	font-size:25px;
+}
+nav ul
+{
+	float:right;
+	margin-right:30px;
+}
+nav ul li
+{
+	list-style-type: none;
+	display: inline-block;
+	font-size:25px;
+	transition:0.8 s all;
+}
+nav ul li:hover
+{
+	background-color:orange;
+}
+nav ul li a
+{
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+	padding:30px;
+	font-size:20px;
+}
+h5 
+{
+    text-align:center;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-family: merienda;
+	color:#fff;
+}
+.tag 
+{
+	text-align:center;
+	font-size:15px;
+	color:#800000;
+    border:3px solid blue;
+	background-color:violet;
+	width:300px;
+}
+p 
+{
+	text-align:center;
+	font-size: 35px;
+	letter-spacing:1px;
+	font-family: poppins;
+	color:#fff;
+}
+button
+{
+	width:200px;
+	height:45px;
+	font-size:25px;
+	font-weight:bold;
+	background:radial-gradient(orange,red);
+}
+.classdiv
+{
+	display:flex;
+	justify-content:center;
+}
+.classdiv a
+{
+	height:60px;
+	width:60px;
+	background-color:pink;
+	border-radius:30px;
+	line-height:70px;
+	text-align:center;
+	margin:10px;
+	box-shadow:1px 4px 2px 2px violet;
+}
+.classdiv a i
+{
+	transition:all 0.3s linear;
+}
+.classdiv a:hover i
+{
+transform:scale(1.4);
+}
+.fa-github
+{
+color:#000;
+}
+.fa-linkedin
+{
+color:blue;
+}
+.fa-envelope
+{
+color:red;
+}
+</style>
+</head>
+<body>
+	<div id="main">
+		<nav>
+			<div class="bank">SPARK BANK</div>
+				<ul>
+					<li><a href="getstart.php">HOME</a></li>
+					<li><a href="viewcustomer.php">VIEW CUSTOMER</a></li>
+					<li><a href="history.php">TRANSACTION HISTORY</a></li>
+				</ul>
+		</nav>
+		<h5>SPARK FOUNDATION INTERSHIP PROJECT</h5>
+		<p> BASIC BANKING SYSTEM</p>
+		<br><br>
+		<center>
+			<div class="tag">
+				<h2>PRESENTED BY </h2>
+				<h2>---SANJANA DOSHI</h2>
+			</div>
+		</center>
+		<br><br><br>
+		<a href="viewcustomer.php"><center><button class="button" type="submit">GET START</button></center></a>
+		<div class="classdiv" style="padding:2%">
+			<a href="https://github.com/sanjud27" target="blank_page">
+				<i class="fa fa-2x fa-github"></i>
+			</a>
+			<a href="https://www.linkedin.com/feed/" target="blank_page">
+				<i class="fa fa-2x fa-linkedin"></i>
+			</a>
+			<a href="doshisanjana108@gmail.com" target="blank_page">
+				<i class="fa fa-2x fa-envelope"></i>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
